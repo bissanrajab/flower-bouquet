@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#f7f3eb">
-    <meta name="description" content="A colorful bouquet of lilies, hydrangeas, orchids, and a white rose, illustrated in SVG.">
+    <meta name="description" content="A lush, hand-tied bouquet of garden roses, lilies, hydrangeas, and orchids, illustrated in detailed SVG.">
     <title>A little bouquet</title>
     <style>
       :root {
@@ -79,11 +79,11 @@
     <main>
       <p class="eyebrow">Gathered with love</p>
       <h1>A little bouquet</h1>
-      <p class="subtitle">Lilies, hydrangeas &amp; a rose, wrapped just for you.</p>
+      <p class="subtitle">Garden roses, open lilies &amp; clouds of hydrangea.</p>
 
       <svg class="artwork" viewBox="0 0 760 800" role="img" aria-labelledby="bouquet-title bouquet-description" xmlns="http://www.w3.org/2000/svg">
         <title id="bouquet-title">A colorful hand-tied flower bouquet</title>
-        <desc id="bouquet-description">Pink and coral lilies, blue and violet hydrangeas, magenta orchids, a white rose, green leaves and stems, gathered in a warm kraft-paper wrap.</desc>
+        <desc id="bouquet-description">A lush hand-tied arrangement of blush and coral lilies, layered cream and peach garden roses, blue and violet hydrangeas, pink orchids, soft greenery and delicate filler flowers in a warm kraft-paper wrap.</desc>
         <defs>
           <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
             <stop offset="0" stop-color="#dfbd87"/>
@@ -103,9 +103,14 @@
             <stop stop-color="#90a978"/>
             <stop offset="1" stop-color="#42654d"/>
           </linearGradient>
-          <linearGradient id="rose-petal" x1="0" y1="0" x2="0" y2="1">
-            <stop stop-color="#fffefa"/>
-            <stop offset="1" stop-color="#dedbd0"/>
+          <linearGradient id="rose-blush" x1="0" y1="0" x2=".8" y2="1">
+            <stop stop-color="#ffe2d2"/>
+            <stop offset=".58" stop-color="#eaa58f"/>
+            <stop offset="1" stop-color="#b96c67"/>
+          </linearGradient>
+          <linearGradient id="lily-center" x1="0" y1="0" x2="0" y2="1">
+            <stop stop-color="#fff6e8" stop-opacity=".85"/>
+            <stop offset="1" stop-color="#d97d75" stop-opacity=".45"/>
           </linearGradient>
           <symbol id="hydrangea-floret" viewBox="-12 -12 24 24">
             <path d="M0-10C3-10 4-6 2-3 6-7 10-5 9-2 8 1 5 2 2 1 6 3 6 8 3 9 0 10-2 6-1 3-3 7-8 7-9 4-10 1-7-1-3-1-7-2-8-7-5-9-2-10 0-7 0-4Z" fill="currentColor"/>
@@ -120,8 +125,15 @@
               <path d="M0 0C-17-7-46-18-55-39-63-57-47-60-29-39-33-66-25-78-11-64 4-48 4-19 0 0Z" transform="rotate(240)"/>
               <path d="M0 0C-17-7-46-18-55-39-63-57-47-60-29-39-33-66-25-78-11-64 4-48 4-19 0 0Z" transform="rotate(300)"/>
             </g>
+            <path d="M0-5C-9-24-11-42 0-60 11-42 9-24 0-5Z" fill="url(#lily-center)" opacity=".72"/>
             <g fill="none" stroke="#d56d69" stroke-linecap="round" stroke-width="1.2" opacity=".8">
               <path d="M0-4 0-53M2-3 18-43M3-1 40-28M0 3 0 44M-3 1-40 28M-2-3-18-43"/>
+            </g>
+            <g fill="#b85c58" opacity=".62">
+              <circle cx="-8" cy="-23" r="1.2"/><circle cx="-13" cy="-28" r=".9"/>
+              <circle cx="8" cy="-25" r="1.1"/><circle cx="15" cy="-34" r=".9"/>
+              <circle cx="26" cy="-22" r="1.1"/><circle cx="-25" cy="-20" r="1"/>
+              <circle cx="-5" cy="21" r="1"/><circle cx="7" cy="27" r="1.1"/>
             </g>
             <g stroke="#c98142" stroke-width="1.5">
               <path d="M0 0-8-26M0 0 3-31M0 0 14-24M0 0-18-19" fill="none"/>
@@ -129,6 +141,35 @@
               <circle cx="3" cy="-31" r="2.5" fill="#f6c96f"/>
               <circle cx="14" cy="-24" r="2.5" fill="#f6c96f"/>
               <circle cx="-18" cy="-19" r="2.5" fill="#f6c96f"/>
+            </g>
+          </g>
+          <g id="rose-bloom">
+            <circle r="39" fill="#8f5446" opacity=".12"/>
+            <g fill="currentColor" stroke="#fff8ef" stroke-opacity=".68" stroke-width="1.1">
+              <path d="M-2 17C-24 31-43 15-37-4-33-17-17-21-9-8-22-3-18 12-7 12Z"/>
+              <path d="M-7 11C-27 4-27-19-11-29 1-36 13-27 9-13 1-20-10-13-5-4Z"/>
+              <path d="M2 9C-5-11 13-29 30-19 43-11 37 8 22 9 25-2 13-8 7-1Z"/>
+              <path d="M9 5C29 1 43 18 32 33 23 45 4 38 6 23 16 28 24 18 17 11Z"/>
+              <path d="M3 16C3 36-18 44-31 31-41 21-31 5-18 8-22 19-11 25-4 18Z"/>
+            </g>
+            <path d="M-31 1C-35-15-16-29-1-24 13-34 34-18 30-3 43 12 27 33 12 29-1 43-25 34-24 19Z" fill="url(#rose-blush)" opacity=".2"/>
+            <g fill="none" stroke="#fff9f0" stroke-linecap="round" stroke-width="1.4" opacity=".68">
+              <path d="M-6 10C-20 12-29 6-33 0M-3 4C-9-8-8-18-3-25M7 3C17-7 26-11 34-10M12 12C25 12 31 18 33 25M0 17C-2 27-9 33-17 35"/>
+            </g>
+            <path d="M-8 6C-11-2-3-10 4-6 10-3 8 5 2 6 7 0 1-3-2 0-5 3-2 7 1 8Z" fill="#b97962" stroke="#f8d7c3" stroke-width="1.2"/>
+          </g>
+          <g id="filler-spray" fill="none" stroke="#78916a" stroke-linecap="round">
+            <path d="M0 0C-2-19 2-38 0-58" stroke-width="2"/>
+            <path d="M0-17-13-30M1-27 14-40M0-37-10-49M1-45 10-55" stroke-width="1.3"/>
+            <g fill="#fff9ed" stroke="#d9cdb6" stroke-width=".7">
+              <circle cx="-14" cy="-31" r="4"/><circle cx="-10" cy="-49" r="3.5"/>
+              <circle cx="15" cy="-41" r="4"/><circle cx="10" cy="-56" r="3.5"/>
+              <circle cy="-59" r="4"/>
+            </g>
+            <g fill="#e7c77f" stroke="none">
+              <circle cx="-14" cy="-31" r="1.2"/><circle cx="-10" cy="-49" r="1"/>
+              <circle cx="15" cy="-41" r="1.2"/><circle cx="10" cy="-56" r="1"/>
+              <circle cy="-59" r="1.2"/>
             </g>
           </g>
           <g id="orchid-bloom">
@@ -149,6 +190,9 @@
           <path d="M362 615C340 521 255 447 178 354" stroke-width="6"/>
           <path d="M383 615C393 505 340 402 296 302" stroke-width="5"/>
           <path d="M400 615C427 509 422 421 425 344" stroke-width="5"/>
+          <path d="M369 615C329 485 243 363 225 263" stroke-width="4"/>
+          <path d="M395 615C448 490 528 377 548 292" stroke-width="4"/>
+          <path d="M378 615C379 500 390 410 390 334" stroke-width="4"/>
         </g>
         <g fill="url(#leaf)" stroke="#46634a" stroke-width="1.2">
           <path d="M329 496C268 485 224 445 211 398 257 399 307 426 329 496Z"/>
@@ -161,9 +205,20 @@
           <path d="M408 452C448 411 460 367 443 336 415 364 400 408 408 452Z"/>
           <path d="M353 541C306 522 281 491 280 462 316 470 346 500 353 541Z"/>
           <path d="M415 541C461 521 485 490 484 461 449 469 421 499 415 541Z"/>
+          <path d="M303 475C255 464 223 431 216 397 252 405 286 431 303 475Z"/>
+          <path d="M466 473C513 457 541 422 542 389 507 399 476 428 466 473Z"/>
+          <path d="M342 514C300 486 282 447 291 417 321 440 343 476 342 514Z"/>
+          <path d="M426 514C468 486 486 447 477 417 447 440 425 476 426 514Z"/>
         </g>
         <g fill="none" stroke="#b0bd8e" stroke-linecap="round" stroke-width="1.5" opacity=".8">
           <path d="M323 489 222 405M314 452 238 358M282 407 200 317M441 485 537 400M456 436 527 343M359 454 345 351M415 446 441 342"/>
+          <path d="M298 469 222 402M461 467 538 394M339 507 295 421M429 507 474 421"/>
+        </g>
+
+        <g aria-hidden="true">
+          <g transform="translate(245 379) rotate(-17) scale(.8)"><use href="#filler-spray"/></g>
+          <g transform="translate(518 382) rotate(18) scale(.8)"><use href="#filler-spray"/></g>
+          <g transform="translate(376 350) rotate(-8) scale(.62)"><use href="#filler-spray"/></g>
         </g>
 
         <!-- Hydrangea clusters, built from small inline SVG florets. -->
@@ -180,6 +235,10 @@
             <use href="#hydrangea-floret" x="-23" y="-24" width="31" height="31" style="color:#8794d2"/>
             <use href="#hydrangea-floret" x="2" y="-24" width="31" height="31" style="color:#b4bee8"/>
             <use href="#hydrangea-floret" x="-49" y="-49" width="27" height="27" style="color:#8795d1"/>
+            <use href="#hydrangea-floret" x="-62" y="-4" width="27" height="27" style="color:#96a1d9"/>
+            <use href="#hydrangea-floret" x="25" y="-49" width="27" height="27" style="color:#a7b3e4"/>
+            <use href="#hydrangea-floret" x="-5" y="23" width="27" height="27" style="color:#818fcf"/>
+            <use href="#hydrangea-floret" x="40" y="-3" width="24" height="24" style="color:#c0c8eb"/>
           </g>
           <g transform="translate(526 302)">
             <use href="#hydrangea-floret" x="-51" y="-21" width="30" height="30" style="color:#ad77b8"/>
@@ -192,21 +251,31 @@
             <use href="#hydrangea-floret" x="-41" y="1" width="30" height="30" style="color:#c89ad1"/>
             <use href="#hydrangea-floret" x="-24" y="-23" width="31" height="31" style="color:#b781c2"/>
             <use href="#hydrangea-floret" x="0" y="-24" width="31" height="31" style="color:#d1a5d6"/>
+            <use href="#hydrangea-floret" x="-59" y="-5" width="27" height="27" style="color:#bb8ac8"/>
+            <use href="#hydrangea-floret" x="24" y="-48" width="27" height="27" style="color:#c99ed2"/>
+            <use href="#hydrangea-floret" x="-5" y="25" width="27" height="27" style="color:#ad7dbb"/>
+            <use href="#hydrangea-floret" x="41" y="-2" width="24" height="24" style="color:#d2acd9"/>
           </g>
         </g>
 
-        <!-- Three open lilies. -->
+        <!-- Open lilies at different angles and stages of bloom. -->
+        <g transform="translate(229 250) rotate(-24) scale(.67)" style="color:#f5b2b5">
+          <use href="#lily"/>
+        </g>
         <g transform="translate(302 190) rotate(-17) scale(.93)" style="color:#ef9ca5">
           <use href="#lily"/>
         </g>
         <g transform="translate(466 177) rotate(13) scale(.9)" style="color:#f29a7d">
           <use href="#lily"/>
         </g>
+        <g transform="translate(542 246) rotate(22) scale(.66)" style="color:#f7b19c">
+          <use href="#lily"/>
+        </g>
         <g transform="translate(372 282) rotate(5) scale(.7)" style="color:#ef9ca5">
           <use href="#lily"/>
         </g>
 
-        <!-- Sprays of orchids and the soft white rose. -->
+        <!-- Sprays of orchids and layered garden roses. -->
         <g transform="translate(264 365) rotate(-19) scale(.77)">
           <use href="#orchid-bloom"/>
         </g>
@@ -219,18 +288,14 @@
         <g transform="translate(554 359) rotate(-12) scale(.62)">
           <use href="#orchid-bloom"/>
         </g>
-        <g transform="translate(390 390)">
-          <circle r="46" fill="#f2eee3" opacity=".55"/>
-          <g fill="url(#rose-petal)" stroke="#d9d4c8" stroke-width="1">
-            <ellipse cy="-19" rx="18" ry="27"/>
-            <ellipse cy="-19" rx="18" ry="27" transform="rotate(60)"/>
-            <ellipse cy="-19" rx="18" ry="27" transform="rotate(120)"/>
-            <ellipse cy="-15" rx="14" ry="22" transform="rotate(30)"/>
-            <ellipse cy="-15" rx="14" ry="22" transform="rotate(90)"/>
-            <ellipse cy="-15" rx="14" ry="22" transform="rotate(150)"/>
-            <circle r="15" fill="#fffdf7"/>
-          </g>
-          <path d="M-8 2C-5-10 9-11 12-2 15 7 4 13-3 8 4 8 7 4 5 0 2-4-3-2-4 2Z" fill="#ece8dc" stroke="#d2cdbf" stroke-width="1"/>
+        <g transform="translate(327 352) rotate(-14) scale(.76)" style="color:#df9a83">
+          <use href="#rose-bloom"/>
+        </g>
+        <g transform="translate(456 350) rotate(12) scale(.72)" style="color:#f6d5bd">
+          <use href="#rose-bloom"/>
+        </g>
+        <g transform="translate(390 390) rotate(-8) scale(1.08)" style="color:#fffaf0">
+          <use href="#rose-bloom"/>
         </g>
 
         <!-- Kraft paper gathers around the stems. -->
